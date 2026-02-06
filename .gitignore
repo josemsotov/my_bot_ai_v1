@@ -1,0 +1,34 @@
+# ROS Build Directories
+build/
+install/
+log/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+.pytest_cache/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Compiled objects
+*.o
+*.a
+*.so
+
+# Editor backups
+*.backup
+*.bak

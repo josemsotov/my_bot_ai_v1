@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="smart_trolley_v4_ai">
+
+    <!-- Include the SMART-TROLLEY URDF -->
+    <xacro:include filename="$(find smart_t_ai_v1)/description/SMART-TROLLEY_V4_ai.xacro"/>
+
+    <!-- Include Gazebo Sim control plugin -->
+    <xacro:include filename="$(find smart_t_ai_v1)/description/gazebo_control_trolley.xacro"/>
+
+    <!-- Include Camera sensor -->
+    <xacro:include filename="$(find smart_t_ai_v1)/description/camera.xacro"/>
+
+    <!-- Include LiDAR sensor -->
+    <xacro:include filename="$(find smart_t_ai_v1)/description/lidar.xacro"/>
+
+</robot>
