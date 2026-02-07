@@ -3,7 +3,7 @@
 <package format="3">
   <name>smart_t_ai_v1</name>
   <version>0.0.0</version>
-  <description>ROS 2 SMART-TROLLEY V4 package for Jazzy and Gazebo Sim - AI Version V1</description>
+  <description>ROS 2 SMART-TROLLEY V5 package for Jazzy and Gazebo Sim - AI Version V1</description>
   <maintainer email="josemsotov@gmail.com">Jose Soto Villasmil</maintainer>
   <license>Apache-2.0</license>
 
