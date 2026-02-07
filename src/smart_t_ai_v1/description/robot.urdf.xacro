@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="smart_trolley_v4_ai">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="smart_trolley_v5">
 
-    <!-- Include the SMART-TROLLEY URDF -->
-    <xacro:include filename="$(find smart_t_ai_v1)/description/SMART-TROLLEY_V4_ai.xacro"/>
+    <!-- Include the SMART-TROLLEY V5 URDF -->
+    <xacro:include filename="$(find smart_t_ai_v1)/description/SMART-TROLLEY_V5.xacro"/>
 
     <!-- Include Gazebo Sim control plugin -->
     <xacro:include filename="$(find smart_t_ai_v1)/description/gazebo_control_trolley.xacro"/>

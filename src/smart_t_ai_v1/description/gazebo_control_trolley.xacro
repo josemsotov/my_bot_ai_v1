@@ -2,15 +2,15 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
   <!-- Gazebo Sim Differential Drive Plugin -->
-  <!-- Adapted for SMART-TROLLEY V4 dimensions -->
+  <!-- Adapted for SMART-TROLLEY V5 dimensions -->
   <gazebo>
     <plugin filename="gz-sim-diff-drive-system" name="gz::sim::systems::DiffDrive">
       <!-- Wheel joints -->
       <left_joint>left_wheel_joint</left_joint>
       <right_joint>right_wheel_joint</right_joint>
 
-      <!-- Kinematics - V4 wheel separation is larger than V5 -->
-      <wheel_separation>0.63</wheel_separation>
+      <!-- Kinematics - V5 wheel separation: 0.47m (0.235 * 2) -->
+      <wheel_separation>0.47</wheel_separation>
       <wheel_radius>0.10</wheel_radius>
 
       <!-- Limits -->
